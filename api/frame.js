@@ -7,7 +7,7 @@
     {
       "label": "Swap via BeanSwap",
       "action": "link",
-      "target": "https://beanswap.monad.testnet/"  // Ganti ke DEX asli Anda
+      "target": "https://beanswap.monad.testnet/"  // Ganti ini sesuai DEX kamu
     }
   ]
 }
