@@ -1,0 +1,11 @@
+{
+  "version": "vNext",
+  "name": "Swap on Monad Testnet",
+  "image": "https://grizzlie123.github.io/Swap-by-beanswap/preview.png",
+  "post_url": "https://warpcast-swap.vercel.app/api/frame",
+  "buttons": [
+    {
+      "label": "Swap via BeanSwap"
+    }
+  ]
+}
