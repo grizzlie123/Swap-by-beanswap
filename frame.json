@@ -2,7 +2,7 @@
   "version": "vNext",
   "name": "Swap on Monad Testnet",
   "image": "https://grizzlie123.github.io/Swap-by-beanswap/preview.png",
-"post_url": "https://swap-by-beanswap.vercel.app/api/frame",
+  "post_url": "https://grizzlie123.github.io/Swap-by-beanswap/index.html",
   "buttons": [
     {
       "label": "Swap via BeanSwap"
