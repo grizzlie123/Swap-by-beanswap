@@ -2,15 +2,38 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Swap on Monad Testnet</title>
+
+  <!-- Warpcast Frame Metadata -->
+  <meta property="fc:frame" content="vNext" />
+  <meta property="fc:frame:image" content="https://grizzlie123.github.io/Swap-by-beanswap/preview.png" />
+  <meta property="fc:frame:post_url" content="https://grizzlie123.github.io/Swap-by-beanswap/index.html" />
+  <meta property="fc:frame:button:1" content="Swap via BeanSwap" />
+  <meta property="og:image" content="https://grizzlie123.github.io/Swap-by-beanswap/preview.png" />
+
   <style>
-    body { font-family: Arial, sans-serif; padding: 2rem; }
-    button { padding: 1rem 2rem; font-size: 1.2rem; cursor: pointer; }
+    body { font-family: Arial, sans-serif; padding: 2rem; background-color: #f0f4f8; color: #222; }
+    h1 { color: #3b82f6; }
+    button {
+      padding: 1rem 2rem;
+      font-size: 1.2rem;
+      background-color: #3b82f6;
+      border: none;
+      color: white;
+      cursor: pointer;
+      border-radius: 6px;
+      margin-top: 1rem;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #2563eb;
+    }
   </style>
 </head>
 <body>
   <h1>Swap on Monad Testnet</h1>
-  <p>Ini adalah contoh UI sederhana untuk BeanSwap di Monad Testnet.</p>
-  <button onclick="alert('Swap clicked!');">Swap via BeanSwap</button>
+  <p>Gunakan tombol di bawah untuk memulai swap via BeanSwap di jaringan Monad Testnet.</p>
+  <button onclick="alert('Swap via BeanSwap clicked!')">Swap via BeanSwap</button>
 </body>
 </html>
