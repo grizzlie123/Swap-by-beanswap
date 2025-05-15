@@ -1,4 +1,4 @@
-export default async function handler(req, res) {
+module.exports = async (req, res) => {
   if (req.method !== 'POST') {
     return res.status(405).json({ error: 'Method not allowed' });
   }
@@ -10,8 +10,8 @@ export default async function handler(req, res) {
       {
         label: 'Swap via BeanSwap',
         action: 'link',
-        target: 'https://your-monad-dex-url.testnet/' // Ganti ke link tujuan swap
+        target: 'https://your-monad-dex-url.testnet/' // Ganti dengan URL tujuan Anda
       }
     ]
   });
-}
+};
